@@ -8,7 +8,6 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
   - [The challenge](#the-challenge)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
