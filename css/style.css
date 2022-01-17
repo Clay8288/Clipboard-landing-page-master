@@ -14,7 +14,7 @@ body {
     color: hsl(210, 10%, 33%);
 }
 
-h2{
+h2 {
     font-size: 1.8em;
 }
 
@@ -57,11 +57,12 @@ h2{
 .btn-ios {
     background-color: hsl(171, 66%, 44%);
     margin-right: 10px;
+    border-bottom: 0.2em solid hsl(171, 66.5%, 37.5%);
 }
 
 .btn-mac {
     background-color: hsl(233, 100%, 69%);
-
+    border-bottom: 0.2em solid hsl(233, 58.5%, 53.7%);
 }
 
 /******** MAIN ********/
@@ -79,26 +80,26 @@ h2{
     color: hsl(201, 11%, 66%);
 }
 
-.second-part{
+.second-part {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     margin-top: 80px;
 }
 
-.second-part img{
+.second-part img {
     height: 550px;
     margin-left: -30px;
 }
 
-.parts{
+.parts {
     width: 55%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-.part{
+.part {
     width: 39%;
 }
 
@@ -106,7 +107,7 @@ h2{
     color: hsl(201, 11%, 66%);
 }
 
-.third-part{
+.third-part {
     text-align: center;
     margin-top: 80px;
 }
@@ -118,26 +119,26 @@ h2{
     margin: auto;
 }
 
-.third-part img{
+.third-part img {
     margin-top: 80px;
 }
 
-.fourth-part{
+.fourth-part {
     text-align: center;
 }
 
-.fourth-part p{
+.fourth-part p {
     color: hsl(201, 11%, 66%);
 }
 
-.elements{
+.elements {
     display: flex;
     margin: 50px auto;
     width: 70%;
     justify-content: space-around;
 }
 
-.element{
+.element {
     width: 350px;
 }
 
@@ -145,25 +146,25 @@ h2{
     color: hsl(201, 11%, 66%);
 }
 
-.fifth-part{
+.fifth-part {
     width: 70%;
     display: flex;
     justify-content: space-evenly;
     margin: auto;
 }
 
-.fifth-part img{
+.fifth-part img {
     height: fit-content;
     display: flex;
     margin: 80px auto;
 }
 
-.sixth-part{
+.sixth-part {
     text-align: center;
     margin-top: 80px;
 }
 
-.sixth-part p{
+.sixth-part p {
     width: 39%;
     margin: auto;
     color: hsl(201, 11%, 66%);
@@ -171,7 +172,7 @@ h2{
 
 /*********** FOOTER ***********/
 
-footer{
+footer {
     height: 20vh;
     background-color: #f8f8f8;
     margin-top: 80px;
@@ -181,39 +182,172 @@ footer{
 
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     height: 85%;
 }
 
-.logo img{
+.logo img {
     width: 70%;
 }
 
-.links{
+.links {
     display: flex;
     width: 40%;
     align-items: center;
 }
 
-.links ul{
+.links ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     list-style: none;
 }
 
-.links li{
+.links li {
     width: 200px;
     height: 40px;
 }
 
-.socials{
+.socials {
     width: 7%;
     display: flex;
     height: fit-content;
     margin-top: auto;
     margin-bottom: auto;
     justify-content: space-around;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width: 720px) {
+
+    .title {
+        height: 70vh;
+        text-align: center;
+    }
+
+    .title img {
+        width: 100px;
+    }
+
+    .title h1 {
+        width: 85%;
+        display: flex;
+        margin: 40px auto;
+    }
+
+    .title p {
+        width: 85%;
+        margin: 40px auto;
+    }
+
+    .btn-ios {
+        margin-right: 0;
+    }
+
+    .btn-ios,
+    .btn-mac {
+        margin-top: 20px;
+        width: 330px;
+        height: 50px;
+        border-radius: 30px;
+        font-size: 1em;
+    }
+
+    h2 {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .first-part p,
+    .sixth-part p {
+        width: 70%;
+    }
+
+    .second-part {
+        flex-wrap: wrap;
+    }
+
+    .second-part img {
+        height: 250px;
+        margin: 0 auto;
+    }
+
+    .parts {
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .part {
+        width: 100%;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .third-part p {
+        width: 75%;
+    }
+
+    .third-part img {
+        width: 390px;
+    }
+
+    .fourth-part p {
+        width: 70%;
+        margin: auto;
+    }
+
+    .elements {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .element {
+        margin: 20px 0;
+    }
+
+    .fifth-part {
+        flex-direction: column;
+    }
+
+    .fifth-part img {
+        margin: 30px auto;
+    }
+
+    footer {
+        height: 50vh;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        height: 20%;
+    }
+
+    .logo img {
+        width: 15%;
+        margin: auto;
+    }
+
+    .links {
+        width: 100%;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .links ul {
+        padding: 0;
+    }
+
+    .links li {
+        width: 100%;
+    }
+
+    .socials {
+        width: 50%;
+        margin: auto;
+    }
 }
