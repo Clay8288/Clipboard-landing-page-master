@@ -8,7 +8,6 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
   - [The challenge](#the-challenge)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -23,4 +22,8 @@ Users should be able to:
 
 - Website - [Clelia](https://cleliacarniel.com/)
 - Frontend Mentor - [Clay8288](https://www.frontendmentor.io/profile/Clay8288)
+
+# NFT-preview-card-component-challenge-hub
+
+[Project](http://fm-landing-page.surge.sh/)
 
